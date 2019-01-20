@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<title>Portal </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/script.js"></script>
+	
+</head>
+<body>
+	<div class="topo">
+		<div class="topoint">
+			
+			<div class="topoleft">
+				<ul>
+					<li><a href="Quem somos">Quem Somos</a></li>
+					<li><a href="Anucie aqui">Anuncie aqui</a></li>
+					<li><a href="Contato">Contato</a></li>
+				</ul>
+			</div>
+
+			<div class="toporight">
+
+				<input type="image" src="assets/images/search.png" width="26" height="26">
+				<input type="text" name="busca" class="topobusca" placeholder="Pesquisar..."/>
+
+				<a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="assets/images/google-plus.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="assets/images/linkedin.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="assets/images/deviantart.png" border="0" width="26" height="26"></a>
+				<a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26"></a>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="topo2">
+		<div class="topo2int">
+			<div class="logo"><img src="assets/images/logo.png" border="0" width="230" height="78"></div>
+			<div class="banner">PUBLICIDADE 720 x 90px</div>
+		</div>
+	</div>
+
+
+
+	<div class="menu">
+		<div class="menuint">
+			<img src="assets/images/menu.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu()">
+
+			<ul id="menu">
+				<li><a href="">Home</a></li>
+				<li><a href="">Economia</a></li>
+				<li>
+					<a href="">Entreterimento</a>
+					<img src="assets/images/arrowdown.png" border="0" width="10">
+					<div class="submenu">
+						<a href=""><div class="submenuitem">Sub menu 1</div></a>
+						<a href=""><div class="submenuitem">Sub menu 2</div></a>
+						<a href=""><div class="submenuitem">Sub menu 3</div></a>
+						<a href=""><div class="submenuitem">Sub menu 4</div></a>
+						<a href=""><div class="submenuitem">Sub menu 5</div></a>
+					</div>
+				</li>
+				<li>
+					<a href="">Esportes</a>
+					<img src="assets/images/arrowdown.png" border="0" width="10">
+					<div class="submenu">
+						<a href=""><div class="submenuitem">Sub menu 1</div></a>
+						<a href=""><div class="submenuitem">Sub menu 2</div></a>
+						<a href=""><div class="submenuitem">Sub menu 3</div></a>
+					</div>
+				</li>
+				<li><a href="">Geral</a></li>
+				<li>
+					<a href="">Noticias</a>
+					<img src="assets/images/arrowdown.png" border="0" width="10">
+					<div class="submenu">
+						<a href=""><div class="submenuitem">Sub menu 1</div></a>
+						<a href=""><div class="submenuitem">Sub menu 2</div></a>
+						<a href=""><div class="submenuitem">Sub menu 3</div></a>
+						<a href=""><div class="submenuitem">Sub menu 4</div></a>
+					</div>
+				</li>
+				<li><a href="">Polícia</a></li>
+				<li><a href="">Videos</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="ultimasnoticias">
+		<div class="ultimasnoticiasint">
+			<div class="ultnoticiasarea">
+				<div class="ultnoticiastitulo">ULTIMAS NOTICIAS</div>
+				<div class="ultnoticiasnoticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin.</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="containerint">
+			<div class="leftside">
+				<div class="slideshow" id="slideshow">
+					<div class="slide_bolinhas">
+						<div class="bolinha" onclick="mudarSlide(0)"></div>
+						<div class="bolinha" onclick="mudarSlide(1)"></div>
+						<div class="bolinha" onclick="mudarSlide(2)"></div>
+						<div class="bolinha" onclick="mudarSlide(3)"></div>
+					</div>
+
+					<div class="slideshow_area">
+						<div class="slide" style="background-image: url('assets/images/noticia.jpg');">
+							<div class="slide_info">
+								<div class="slide_info_titulo">Lorem ipsum dolor sit amet</div>
+								<div class="slide_info_subtitulo">Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper.</div>
+							</div>
+						</div>
+						<div class="slide" style="background-image: url('assets/images/noticia1.jpg');">
+							<div class="slide_info">
+								<div class="slide_info_titulo">Lorem ipsum dolor sit amet</div>
+								<div class="slide_info_subtitulo">Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper</div>
+							</div>
+						</div>
+						<div class="slide" style="background-image: url('assets/images/noticia2.jpg');">
+							<div class="slide_info">
+								<div class="slide_info_titulo">Lorem ipsum dolor sit amet</div>
+								<div class="slide_info_subtitulo">Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper</div>
+							</div>
+						</div>
+						<div class="slide" style="background-image: url('assets/images/noticia3.jpg');">
+							<div class="slide_info">
+								<div class="slide_info_titulo">Lorem ipsum dolor sit amet</div>
+								<div class="slide_info_subtitulo">Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widget_titulo">NOTICIAS</div>
+					<div class="widget_conteudo">
+
+						<div class="noticiaarea1"">
+							<div class="noticiaitem noticiabig">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiabig.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper, hendrerit eros eu, ultrices mi.</div>
+							</div>
+						</div>
+
+						<div class="noticiaarea2">
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiaimg.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin. </div>
+							</div>
+
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiaimg2.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin.</div>
+							</div>
+
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiaimg3.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin.</div>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widget_titulo">NOTICIAS</div>
+					<div class="widget_conteudo">
+
+						<div class="noticiaarea1"">
+							<div class="noticiaitem noticiabig">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiabig.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper, hendrerit eros eu, ultrices mi.</div>
+							</div>
+						</div>
+
+						<div class="noticiaarea2">
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiaimg.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin.</div>
+							</div>
+
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiaimg2.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin.</div>
+							</div>
+
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="assets/images/noticiaimg3.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Lorem ipsum dolor sit amet</div>
+								<div class="noticiainfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin.</div>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="rightside">
+				<div class="widget">
+					<div class="widget_titulo" style="width: 270px">SOCIAL</div>
+					<div class="widget_conteudo">
+						<a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="assets/images/google-plus.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="assets/images/linkedin.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="assets/images/deviantart.png" border="0" width="26" height="26"></a>
+						<a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26"></a>
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widget_titulo">ULTIMAS NOTICIAS</div>
+					<div class="widget_conteudo">
+						<div class="noticia_item">
+							<a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper, hendrerit eros eu, ultrices mi. Quisque pulvinar quis leo sed tincidunt. Etiam semper volutpat sapien, ac consectetur erat cursus a.</a>
+						</div>
+						<div class="noticia_item">
+							<a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper, hendrerit eros eu, ultrices mi. Quisque pulvinar quis leo sed tincidunt.</a>
+						</div>
+						<div class="noticia_item">
+							<a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ex bibendum sollicitudin. Curabitur et nibh ullamcorper, hendrerit eros eu, ultrices mi. Quisque pulvinar quis leo sed tincidunt.</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widget_titulo">PUBLICIDADE</div>
+					<div class="widget_conteudo">
+						<img src="assets/images/banner.jpg" border="0" width="273">
+					</div>
+				</div>
+
+				<div class="widget">
+					<div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+					<div class="widget_conteudo">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=154&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="273" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+
+</html>
